@@ -64,12 +64,12 @@ classification and regression (k-NN  [3]) method, etc. I supported both Random F
 already integrated in Spark ML) and / or k-NN to solve the first problem.
 
 However, the first solution only works well on sample observed in traning datasets. That means if new patterns or
-classes found in given test sample which did not exist in training data, we can do predict for that case. That is the
-reason why we have to solve the second challenge.
+classes are found in given test sample which did not exist in training data, it will be impossible to do predict. 
+That is root problem to be solved for the second challenge.
 
-Besides, `product_name` defined in section 0 is usually short and be written informally. That is the morphology of
-formal sentences can not used to predict the main subjective object (might be a named entity). So, we can not use
-the rule base or NLP parser to accomplish extracting named entitiy. To solve that, I applied POS Tagger built for tweet
+Besides, `product_name` defined in section (0) is usually short and be written informally. That is the morphology of
+formal sentences can not be used to predict the main subjective object (might be a named entity). So, we can not use
+the rule base or NLP parser to accomplish extracting named entities. To solve that, I applied POS Tagger built for tweet
 (similar kinds, which is short and unstructure textual content) in others to regonize 'noun', 'verb', ... and
 disambiguate tokens.
 

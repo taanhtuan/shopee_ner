@@ -1,7 +1,7 @@
 USAGE
 =====
 
-This section describes the way setup environments and build the project before executing processes.
+This section describes the way to setup environments and build the project before executing processes.
 
 Basically, there are 2 processes:
 
