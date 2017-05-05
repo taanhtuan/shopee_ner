@@ -1,0 +1,1 @@
+[Download POS tagger model](http://downloads.gate.ac.uk/twitie/gate-EN-twitter.model) then place it here.
