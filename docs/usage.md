@@ -75,9 +75,9 @@ The test CSV file must be following structure:
 [2] __Configuration structure__
 -------------------------------
 
-A configuration file must contain 3 part:
+A configuration file must contain 3 parts:
 
-1. `process` where define name of process you want to run, in our case it is `train` or `predict`
+1. `process` defines name of process you want to run, in our case it is `train` or `predict`
 2. `io` contains list of places where they stores files for running a process
 3. `param` is optional list of settings, be used in tuning model of `train` process
 
